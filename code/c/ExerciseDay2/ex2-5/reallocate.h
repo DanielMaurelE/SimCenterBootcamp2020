@@ -1,0 +1,1 @@
+void reallocate(double *vector1,double *vector2,int *maxVectorSize);

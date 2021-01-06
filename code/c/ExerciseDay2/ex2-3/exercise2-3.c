@@ -8,7 +8,6 @@
 int main(int argc, char **argv) {
 
 	// get dth from the first argument.  This is given in degrees!
-	...
 	// might be smart to set a default value, just in case the user
 	// forgets when calling this  program;)
 
@@ -23,8 +22,13 @@ int main(int argc, char **argv) {
 	S0.tau  =  3.5;
 
 	// loop to compute transformed states
-
-	StressTransform(S0, &Sp, 25.0);
-	printf("sigx' = %12.6f\nsigy' = %12.6f\ntau'  = %12.6f\n\n", Sp.sigx, Sp.sigy, Sp.tau);
+	double incr=5.0, theta=0.0;
+	if(argc>1){
+		double incr=atof(argv[1]);
+	}
+	for(int i=0;i<=(int)(ceil(180.0/incr));i++){
+		StressTransform(S0, &Sp, (double)(i*incr));
+		printf("%12.6f, %12.6f, %12.6f, %12.6f\n",(double)(i*incr), Sp.sigx, Sp.sigy, Sp.tau);
+	}
 }
 
