@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.cpp
+Circle.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Circle.h
+ColoredShape.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.cpp
+ColoredShape.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+iostream
+-
+string
+-
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.cpp
+Rectangle.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Rectangle.h
+ColoredShape.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.cpp
+Triangle.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/Triangle.h
+ColoredShape.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/ColoredShape.h
+

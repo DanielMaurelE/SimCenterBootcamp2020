@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex2/Vector.cpp
+iostream
+-
+cmath
+-
+Vector.h
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex2/Vector.h
+
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex2/Vector.h
+

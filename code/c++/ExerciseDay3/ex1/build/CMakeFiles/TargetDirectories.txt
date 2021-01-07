@@ -1,0 +1,7 @@
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/rebuild_cache.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/ex4.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/edit_cache.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/ex3.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/ex2.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/ex1.dir
+/mnt/f/Github/SimCenterBootcamp2020/code/c++/ExerciseDay3/ex1/build/CMakeFiles/ShapeLib.dir
