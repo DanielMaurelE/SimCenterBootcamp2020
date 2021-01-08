@@ -1,0 +1,118 @@
+{
+  "id": "mpiCompileRun-0.0.3",
+  "name": "mpiCompileRun",
+  "version": "0.0.3",
+  "revision": 3,
+  "label": "dakota",
+  "lastModified": "20 minutes ago",
+  "shortDescription": "Dakota",
+  "longDescription": "Dakota",
+  "owner": "dmaurel",
+  "isPublic": false,
+  "executionType": "HPC",
+  "executionSystem": "demo.exec.frontera.dmaurel",
+  "deploymentSystem": "designsafe.storage.default",
+  "available": true,
+  "parallelism": "PARALLEL",
+  "defaultProcessorsPerNode": 8,
+  "defaultMemoryPerNode": 1,
+  "defaultNodeCount": 1,
+  "defaultMaxRunTime": "06:00:00",
+  "defaultQueue": "normal",
+  "tags": [
+    "mpi"
+  ],
+  "ontology": [],
+  "helpURI": "https://dakota.sandia.gov/",
+  "deploymentPath": "dmaurel/applications/mpiCompileRun-0.0.3",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "checkpointable": false,
+  "modules": [
+    "load dakota"
+  ],
+  "inputs": [
+    {
+      "id": "inputDirectory",
+      "value": {
+        "validator": "",
+        "visible": true,
+        "required": true,
+        "order": 0,
+        "enquote": false,
+        "default": "agave://designsafe.storage.default/mock/FreefieldAnalysis-Effective"
+      },
+      "details": {
+        "label": "Input Directory",
+        "description": "Input Directory",
+        "argument": null,
+        "showArgument": false,
+        "repeatArgument": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "maxCardinality": 1,
+        "ontology": [
+          "xsd:string"
+        ],
+        "fileTypes": [
+          "raw-0"
+        ]
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "programFile",
+      "value": {
+        "visible": true,
+        "required": true,
+        "type": "string",
+        "order": 0,
+        "enquote": false,
+        "default": "dakota.in",
+        "validator": null
+      },
+      "details": {
+        "label": "Program File to Compile",
+        "description": "Program File to Compile",
+        "argument": null,
+        "showArgument": false,
+        "repeatArgument": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "maxCardinality": 1,
+        "ontology": [
+          "xs:string"
+        ]
+      }
+    }
+  ],
+  "outputs": [],
+  "uuid": "5259284830824632811-242ac117-0001-005",
+  "icon": null,
+  "_links": {
+    "self": {
+      "href": "https://agave.designsafe-ci.org/apps/v2/mpiCompileRun-0.0.3"
+    },
+    "executionSystem": {
+      "href": "https://agave.designsafe-ci.org/systems/v2/demo.exec.frontera.dmaurel"
+    },
+    "storageSystem": {
+      "href": "https://agave.designsafe-ci.org/systems/v2/designsafe.storage.default"
+    },
+    "history": {
+      "href": "https://agave.designsafe-ci.org/apps/v2/mpiCompileRun-0.0.3/history"
+    },
+    "metadata": {
+      "href": "https://agave.designsafe-ci.org/meta/v2/data/?q=%7B%22associationIds%22%3A%225259284830824632811-242ac117-0001-005%22%7D"
+    },
+    "owner": {
+      "href": "https://agave.designsafe-ci.org/profiles/v2/dmaurel"
+    },
+    "permissions": {
+      "href": "https://agave.designsafe-ci.org/apps/v2/mpiCompileRun-0.0.3/pems"
+    }
+  }
+}

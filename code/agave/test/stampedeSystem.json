@@ -50,7 +50,7 @@
       "maxProcessorsPerNode": 41664,
       "mappedName": null,
       "maxUserJobs": -1,
-      "customDirectives": "-A FTA-DD-SimCenter"
+      "customDirectives": "-A DesignSafe-SimCenter"
     },
     {
       "maxJobs": 25,
@@ -63,7 +63,7 @@
       "maxProcessorsPerNode": 6144,
       "mappedName": null,
       "maxUserJobs": -1,
-      "customDirectives": "-A FTA-DD-SimCenter"
+      "customDirectives": "-A DesignSafe-SimCenter"
     },
     {
       "maxJobs": 1,
@@ -76,7 +76,7 @@
       "maxProcessorsPerNode": 272,
       "mappedName": null,
       "maxUserJobs": 1,
-      "customDirectives": "-A FTA-DD-SimCenter "
+      "customDirectives": "-A DesignSafe-SimCenter"
     },
     {
       "maxJobs": 50,
@@ -89,7 +89,7 @@
       "maxProcessorsPerNode": 17048,
       "mappedName": null,
       "maxUserJobs": 5,
-      "customDirectives": "-A FTA-DD-SimCenter"
+      "customDirectives": "-A DesignSafe-SimCenter"
     },
     {
       "maxJobs": 5,
@@ -102,7 +102,7 @@
       "maxProcessorsPerNode": 139264,
       "mappedName": null,
       "maxUserJobs": -1,
-      "customDirectives": "-A FTA-DD-SimCenter"
+      "customDirectives": "-A DesignSafe-SimCenter"
     },
     {
       "maxJobs": 1,
@@ -115,7 +115,7 @@
       "maxProcessorsPerNode": 192,
       "mappedName": null,
       "maxUserJobs": -1,
-      "customDirectives": "-A FTA-DD-SimCenter"
+      "customDirectives": "-A DesignSafe-SimCenter"
     }
     ],
     "globalDefault": false,
