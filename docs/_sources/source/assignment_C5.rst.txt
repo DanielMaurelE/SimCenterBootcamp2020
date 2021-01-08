@@ -25,7 +25,7 @@ Today we have a number of exercises. The purpose of these exercisess is to set i
 
    At time of writing, the **-F** option was failing **tapis** commands for all python versions tested running on Windows. Try the command, if not fixed you will have to install the **Ubuntu system for Windows** and run this exercise from a Ubutu shell. If that fails, you can complete the exercise logged into Frontera or Stampede2!
       
-.. note::
+.. tip::
 
    **How to install the Ubuntu subsystem on Windows 10**
 
@@ -76,10 +76,11 @@ ${ALLOCATION}.
 
 Once the file has been completed, you can create the system by invoking one of the the following command.
 
+
 for Frontera:
 
-   .. code::
-      
+ .. code::
+  
       tapis systems create  -F fronteraSystem.json
 
  Now have a look for it. In the file we named it demo something.
@@ -114,13 +115,13 @@ Begin by listing the files in your home directory
 
 .. code::
 
-   tapis files list agave://desihnsafe.storage/default/YOUR_NAME
+   tapis files list agave://designsafe.storage/default/YOUR_NAME
 
 Add a directory tmp to your home folder at DesignSafe
 
 .. code::
 
-   tapis files mkdir agave://desihnsafe.storage/default/YOUR_NAME tmp
+   tapis files mkdir agave://designsafe.storage/default/YOUR_NAME tmp
 
 Copy a small file **SimCenterBootcamp2020/code/agave/ExerciseDays4/ex1/mpiPI.c** to your current directory. From there send it to your new folder at DesignSafe.
 
@@ -132,7 +133,7 @@ Remove your local copy and try and copy the file you just uploaded.
 
 .. code::
 
-   tapis files download agave://desihnsafe.storage/default/YOUR_NAME/tmp/mpiPI.c
+   tapis files download agave://designsafe.storage/default/YOUR_NAME/tmp/mpiPI.c
 
 List the other **tapis** file commands and explore what they do.
 
@@ -157,7 +158,7 @@ We are first going to search for an app to clone. Let us look at simcenter apps.
 
 .. code::
    
-   apps tapis apps search --name like simcenter -f json
+   tapis apps search --name like simcenter -f json
 
 You should see one with an id **simcenter-dakota-1.0.0u1**. Have a look at it's description.
 
@@ -201,4 +202,10 @@ We now have an application ready and wating to compile our code and run it!
 Step 4: Submitting a Job
 ------------------------
 
-Last exercise is to actually submit a job. For this we will use the jobs service. 
+Last exercise is to actually submit a job using a file. In the **code/agave** folder there is a file **piMPI.c** and a json file **cloneSubmit.json**. The **piMPI.c** we have alredy used in files and placed in a demo folder at designsafe off our remote home folder. To submit a job to run at TACC through tapis we need to create the input file telling tapis what to do. The input file is application specific. An input file template for our app is found in **cloneSubmit.json** which is shown below:
+
+.. literalinclude:: ./assignments/c5/cloneSubmit.json
+  :language: json
+  :linenos:
+
+     
